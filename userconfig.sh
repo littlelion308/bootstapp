@@ -47,7 +47,7 @@ cd yay
 # build it
 makepkg -si
 # use it to install the software
-yay -S tbsm evolution firefox j4-dmenu-desktop bspwm sxhkd polybar teams st-luke-git pulseaudio pasystray pavucontrol pulseaudio-ctl ranger arch-install-scripts qutebrowser
+yay -S tbsm evolution firefox j4-dmenu-desktop bspwm sxhkd polybar teams st-luke-git pulseaudio pasystray pavucontrol pulseaudio-ctl ranger arch-install-scripts qutebrowser vim-plug
 # leacy comands
 #yay -S tbsm evolution firefox j4-dmenu-desktop bspwm sxhkd nvim polybar teams st-luke-git pulseaudio pasystray pavucontrol pulseaudio-ctl ranger
 #ln -s /bin/nvim /bin/vi
