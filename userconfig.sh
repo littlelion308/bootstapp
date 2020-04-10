@@ -30,7 +30,14 @@ cp polybar-config ~/.config/polybar/config
 # make the nvim config directory 
 mkdir ~/.config/nvim
 # copy over the nvim.init 
-cp nviminit ~/.config/nvim/nvim.init
+cp init.vim ~/.config/nvim/nvim.init
+# make the neofetch config dir 
+mkdir ~/.config/neofetch
+# copy over the neofetchconfig 
+cp neofetch-config.conf ~/.config/neofetch/config.conf
+# zsh stuff
+cp zshrc ~/.zshrc
+cp zshenv ~/.zshenv
 # go up one directory 
 cd ..
 # get the code for the yay AUR helper

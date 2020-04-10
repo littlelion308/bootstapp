@@ -19,8 +19,10 @@ nvim /etc/locale.gen
 # generate locales
 locale-gen
 # set locale 
+echo configure locale
 nvim /etc/locale.conf
 # set hostname 
+echo set hostname
 nvim /etc/hostname 
 # enable mutikeys
 echo "partial alphanumeric_keys\
