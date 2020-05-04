@@ -13,6 +13,7 @@ cd MyFiles
 cp ./* ~
 # remove the git folder
 rm -rf ~/.git
+rm ~/LICENSE
 # get the code for the yay AUR helper
 git clone aur.archlinux.org/yay.git
 # go in there 
